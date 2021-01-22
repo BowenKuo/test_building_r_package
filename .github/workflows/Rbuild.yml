@@ -11,3 +11,4 @@ jobs:
       with:
         action: 'all'
         needsBioc: false
+        buildSubDirectory: './subdir'
