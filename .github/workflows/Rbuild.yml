@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: R Build and Checks
-      uses: BowenKuo/R-actions@v1.2
+      uses: BowenKuo/R-actions@v1.2.1
       with:
         action: 'all'
         needsBioc: false
